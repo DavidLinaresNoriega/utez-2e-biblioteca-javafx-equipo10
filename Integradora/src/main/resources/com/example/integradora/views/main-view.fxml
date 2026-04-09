@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
 
-<VBox prefHeight="800.0" prefWidth="850.0" spacing="10.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.integradoraprueba.controllers.MainController">
+<VBox prefHeight="800.0" prefWidth="850.0" spacing="10.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.integradora.controllers.MainController">
     <children>
         <Label text="Catálogo de Libros - Biblioteca Escolar" style="-fx-font-size: 16px; -fx-font-weight: bold;">
             <VBox.margin>

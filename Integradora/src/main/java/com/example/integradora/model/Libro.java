@@ -1,4 +1,4 @@
-package com.example.integradoraprueba.model;
+package com.example.integradora.model;
 
 public class Libro {
     private String isbn;
