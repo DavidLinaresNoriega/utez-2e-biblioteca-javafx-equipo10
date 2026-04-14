@@ -1,7 +1,7 @@
 package com.example.integradora.controllers;
 
-import com.example.integradoraprueba.model.Libro;
-import com.example.integradoraprueba.services.BookService;
+import com.example.integradora.model.Libro;
+import com.example.integradora.services.BookService;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -46,6 +46,7 @@ public class FormController {
             if (esEdicion) {
                 service.updatePerson(indexEdicion, isbn, titulo, autor, year, genero, disponibilidad);
                 lblMsg.setText("Libro actualizado con éxito");
+                lblMsg.setStyle("-fx-text-fill : green");
             } else {
                 Libro book = new Libro(isbn, titulo, autor, year, genero, disponibilidad);
                 service.addPerson(book);

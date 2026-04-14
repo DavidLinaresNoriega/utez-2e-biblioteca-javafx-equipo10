@@ -1,7 +1,7 @@
 package com.example.integradora.services;
 
-import com.example.integradoraprueba.model.Libro;
-import com.example.integradoraprueba.repositories.FileRepository;
+import com.example.integradora.model.Libro;
+import com.example.integradora.repositories.FileRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import java.io.IOException;

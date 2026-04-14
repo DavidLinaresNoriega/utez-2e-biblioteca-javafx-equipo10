@@ -1,7 +1,7 @@
 package com.example.integradora.controllers;
 
-import com.example.integradoraprueba.model.Libro;
-import com.example.integradoraprueba.services.BookService;
+import com.example.integradora.model.Libro;
+import com.example.integradora.services.BookService;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -70,7 +70,7 @@ public class MainController {
         int index = tableBooks.getSelectionModel().getSelectedIndex();
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/integradoraprueba/views/form-view.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/integradora/views/form-view.fxml"));
             Parent root = loader.load();
 
             FormController formController = loader.getController();
